@@ -1,24 +1,40 @@
-#header{
-	width: 100%;
-	display: inline-block;
-	background-color: lightblue;
-	position: relative;
-	text-align: right;
+body{
+	background-image: url('pastelblue.jpg');
+	background-size: cover;
 }
 
-#header h1{
-	font-family: 'Raleway', sans-serif;
-	margin-left: 3%;
-	text-align: left;
+#header{
+	border: 5px solid #FFAAAF;
+	padding: 20px 5px 20px 5px;
+	height: 100%;
+	width: 100%;
+	display: inline-block;
+	background-color: #FFBEC3;
+	position: relative;
+	opacity: 0.8;
 }
+
+#header .main{
+	border: 5px none #FFBEC3;
+	font-size: 180%;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+	margin-left: 1%;
+	background-color: #FFBEC3;
+	text-align: left;
+	cursor: pointer;
+}
+
 #header .block{
+	border-style: none;
 	width: 25%;
 	height: 100%
 	margin-left: 5px;
-	margin-right: 5px;
-	background-color: grey;
-	font-size: 16px;
+	background-color: #FFBEC3;
+	font-size: 20px;
 	font-style: solid;
 	font-family: 'FontAwesome' ,'Raleway' , sans-serif;
 	text-align: center;
+	cursor: pointer;
 }
+
